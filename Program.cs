@@ -13,7 +13,8 @@ double.TryParse(getPrecoHora, out precoHora);
 
 Estacionamento e = new Estacionamento(precoInic, precoHora);
 
-string getOpcao = "";
+//string getOpcao = "";
+string getOpcao = string.Empty;
 
 do
 {
